@@ -1,0 +1,1308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Apollo Health</title>
+<link rel="canonical" href="https://apollo-online-health.shop/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Apollo Health">
+<meta property="og:title" content="Apollo Health · Opening soon">
+<meta property="og:description" content="Prescription weight care and peptide therapy, with a licensed clinician and a pharmacy you can name. Join the waitlist.">
+<meta property="og:url" content="https://apollo-online-health.shop/">
+<meta property="og:image" content="https://apollo-online-health.shop/media/8308c047-4295-4619-a58f-76b538938f5e.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="Apollo Health is building prescription weight care and peptide therapy with a licensed clinician and a pharmacy you can name. Join the waitlist.">
+<meta name="theme-color" content="#070F0C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23070F0C'/%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%23D9B46B' stroke-width='2.6'/%3E%3Cpath d='M9.2 18.6a6.8 6.8 0 0 1 13.6 0z' fill='%23E8C98A'/%3E%3Cpath d='M3.5 18.6h25' stroke='%23D9B46B' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Instrument+Sans:wght@400;500&family=Josefin+Sans:wght@300;400&family=Unbounded:wght@300;500&display=swap">
+<style>
+/* Layout: a pinned scroll-scrubbed hero (gold drop into a black mirror), then full-bleed bands that never repeat a skeleton, all inside one fixed emerald-haze environment */
+:root{
+  --canvas:#070F0C;
+  --panel:#0C1814;
+  --panel-2:#11211B;
+  --accent:#D9B46B;
+  --accent-hover:#E8C98A;
+  --accent-muted:rgba(217,180,107,.22);
+  --emerald:#1E8F68;
+  --emerald-soft:rgba(30,143,104,.26);
+  --text-primary:#ECEFE8;
+  --text-secondary:#A6B8AF;
+  --text-tertiary:#87998F;
+  --line:rgba(236,239,232,.10);
+  --line-strong:rgba(217,180,107,.62);
+  --f-display:"Unbounded","Arial Black",system-ui,sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"Geist Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --ease-io:cubic-bezier(.65,0,.35,1);
+  --tshadow:0 1px 2px rgba(3,8,6,.95),0 3px 12px rgba(3,8,6,.78),0 10px 44px rgba(3,8,6,.8);
+  --gutter:clamp(16px,4vw,56px);
+  --nav-h:72px;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{overflow-x:hidden;overflow-x:clip;scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 16px)}
+body{margin:0;overflow-x:hidden;overflow-x:clip;background:var(--canvas);color:var(--text-primary);font:400 1.0625rem/1.65 var(--f-body);-webkit-font-smoothing:antialiased;animation:pagein 1s var(--ease-out) both}
+@keyframes pagein{from{opacity:0}to{opacity:1}}
+img,video,svg{display:block;max-width:100%}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+h1,h2,h3{font-family:var(--f-display);font-weight:300;letter-spacing:-.02em;line-height:1.08;margin:0;text-wrap:balance}
+p{margin:0}
+.sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.mono{font-family:var(--f-mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}
+.kicker{font-family:var(--f-mono);font-size:.75rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:.75em}
+.kicker::before{content:"";width:22px;height:1px;background:currentColor;opacity:.7}
+.wrap{width:100%;max-width:1240px;margin-inline:auto;padding-inline:var(--gutter)}
+.skip{position:fixed;left:16px;top:-60px;z-index:100;background:var(--accent);color:#08110D;padding:10px 16px;border-radius:999px;font-weight:500;text-decoration:none;transition:top .3s var(--ease-out)}
+.skip:focus{top:16px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+main:focus{outline:none}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;padding:0 26px;border-radius:999px;font:500 .95rem/1 var(--f-body);letter-spacing:.01em;text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background-color .35s var(--ease-out),border-color .35s var(--ease-out),color .35s var(--ease-out),transform .35s var(--ease-out)}
+.btn-gold{background:var(--accent);color:#08110D}
+.btn-gold:hover{background:var(--accent-hover)}
+.btn-ghost{border-color:var(--line-strong);color:var(--text-primary);background:rgba(7,15,12,.35)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent-hover)}
+.btn:active{transform:scale(.98)}
+.btn .arr{transition:transform .35s var(--ease-out)}
+.btn:hover .arr{transform:translateX(3px)}
+@media (pointer:coarse){.btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center}}
+
+/* ---------- environment layer ---------- */
+.env{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;background:var(--canvas)}
+.env::before,.env::after{content:"";position:absolute;border-radius:50%;filter:blur(90px);will-change:transform}
+.env::before{width:70vmax;height:55vmax;left:-20vmax;top:10vh;background:radial-gradient(closest-side,rgba(30,143,104,.20),transparent)}
+.env::after{width:50vmax;height:40vmax;right:-15vmax;bottom:-10vmax;background:radial-gradient(closest-side,rgba(217,180,107,.08),transparent)}
+.env.live::before{animation:drift-a 84s var(--ease-io) -20s infinite alternate}
+.env.live::after{animation:drift-b 96s var(--ease-io) -35s infinite alternate}
+.grain{position:absolute;inset:0;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+@keyframes drift-a{to{transform:translate(18vmax,22vh) scale(1.15)}}
+@keyframes drift-b{to{transform:translate(-22vmax,-18vh) scale(.9)}}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background-color .5s var(--ease-out),border-color .5s var(--ease-out),backdrop-filter .5s var(--ease-out);border-bottom:1px solid transparent}
+.nav.solid{background:rgba(7,15,12,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+.nav-in{height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;text-decoration:none}
+/* the Apollo wordmark: fine-line letters, the last O is a sun rising on a horizon */
+.wm{display:flex;align-items:center;gap:.12em;font:400 1.35rem/1 "Josefin Sans",system-ui,sans-serif}
+.wm .lt{letter-spacing:.16em;background:linear-gradient(100deg,#E8C98A,#F7E3B0 45%,#C4964C);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wm svg{display:block;flex:none;width:.81em;height:.81em;margin-top:-.2em;margin-right:.1em;overflow:visible}
+.wm svg.o2{width:.94em;margin-right:0;margin-left:-.05em}
+.brand-sub{font:300 .62rem/1 "Josefin Sans",system-ui,sans-serif;letter-spacing:.5em;color:var(--text-secondary);margin-left:16px;padding:4px 0 4px 16px;border-left:1px solid rgba(217,180,107,.45)}
+.foot-lockup{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.wm-lg{font-size:2.6rem;font-weight:300}
+.brand-sub2{font:300 .72rem/1 "Josefin Sans",system-ui,sans-serif;letter-spacing:.9em;color:var(--text-secondary)}
+.nav-links{display:flex;align-items:center;gap:30px;list-style:none;margin:0;padding:0}
+.nav-links a{font-size:.9rem;color:var(--text-secondary);text-decoration:none;transition:color .3s var(--ease-out)}
+.nav-links a:hover{color:var(--text-primary)}
+.nav .btn{min-height:44px;padding:0 18px;font-size:.88rem;white-space:nowrap}
+.nav .brand{min-height:44px}
+@media (pointer:coarse){.nav .btn{min-height:44px}.brand{min-height:44px}.nav-links a{display:inline-flex;align-items:center;min-height:44px}.wave{height:44px}.consent{min-height:44px;align-items:center}.transcript summary{padding:16px 0}}
+@media (max-width:360px){.nav-in{gap:12px}.nav .btn{padding:0 12px;font-size:.82rem}.nav .wm{font-size:1.15rem}}
+@media (max-width:420px){.brand-sub{display:none}.nav .btn{padding:0 16px}}
+@media (max-width:860px){.nav-links{display:none}}
+
+/* ---------- scrub hero ---------- */
+.hero{position:relative;height:480vh}
+.stage{position:sticky;top:0;height:100vh;overflow:hidden;background:#050B09}
+.poster,.stage video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.poster{background-position:center;background-size:cover;background-repeat:no-repeat}
+.stage video{opacity:0;transition:opacity .9s var(--ease-out);will-change:transform;transform:translateZ(0)}
+.stage.video-ready video{opacity:1}
+.stage.video-failed video{display:none}
+.poster-end{opacity:0;transition:opacity .2s linear}
+.stage.video-ready .poster-end{opacity:0!important;transition:opacity .9s var(--ease-out)}
+.scrim{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 120% 90% at 50% 45%,rgba(4,10,8,0) 38%,rgba(4,10,8,.62) 100%)}
+.stage::after{content:"";position:absolute;inset:auto 0 0 0;height:22vh;background:linear-gradient(to bottom,rgba(7,15,12,0),var(--canvas));pointer-events:none;opacity:0;transition:opacity .6s var(--ease-out)}
+.band{position:absolute;z-index:2;opacity:0;pointer-events:none;text-shadow:var(--tshadow)}
+.band.on{pointer-events:auto}
+.band::before{content:"";position:absolute;inset:-28% -22%;z-index:-1;pointer-events:none;opacity:calc(.25 + .75*var(--k,1));background:radial-gradient(ellipse 62% 58% at 50% 50%,rgba(4,10,8,var(--sa,.62)) 0%,rgba(4,10,8,calc(var(--sa,.62)*.66)) 46%,rgba(4,10,8,0) 76%)}
+.pos-left{left:var(--gutter);top:50%;transform:translateY(-50%);width:min(34vw,500px)}
+.pos-right{right:var(--gutter);top:50%;transform:translateY(-50%);width:min(34vw,500px);text-align:right}
+.pos-right .kicker{justify-content:flex-end}
+.pos-left-high{left:var(--gutter);top:max(16vh,calc(var(--nav-h) + 48px));width:min(40vw,580px)}
+.pos-top{left:50%;top:max(11vh,calc(var(--nav-h) + 28px));transform:translateX(-50%);width:min(92vw,1040px);text-align:center}
+.pos-top .kicker{justify-content:center}
+.band .kicker{margin-bottom:22px}
+.hl{font-family:var(--f-display);font-weight:300;font-size:clamp(1.7rem,3.1vw,2.9rem);line-height:1.12;letter-spacing:-.02em;text-wrap:balance}
+.hl .em,.hl b{font-weight:500;color:var(--accent-hover)}
+.sub{margin-top:20px;font-size:clamp(1rem,1.25vw,1.15rem);color:var(--text-secondary);max-width:38ch}
+.pos-right .sub{margin-left:auto}
+.pos-top .sub{margin-inline:auto;max-width:52ch}
+.band h1{font-size:clamp(2rem,4.1vw,3.9rem);line-height:1.06;font-weight:300}
+.band h1 .w:last-child{font-weight:500;color:var(--accent-hover)}
+.w{display:inline-block;white-space:nowrap}
+.c{display:inline-block}
+/* entrances, all scrubbed off --k */
+.fx-drift .w{--kc:clamp(0,(var(--k,0) - var(--th,0))*2.8,1);opacity:var(--kc);transform:translateY(calc((1 - var(--kc))*-24px))}
+.fx-blur{display:grid}
+.fx-blur>span{grid-area:1/1}
+.fx-blur .soft{filter:blur(10px);opacity:calc(1 - var(--k,0))}
+.fx-blur .sharp{opacity:var(--k,0);transform:scale(calc(.975 + .025*var(--k,0)))}
+.fx-punch .w{--kc:clamp(0,(var(--k,0) - var(--th,0))*3,1);--ks:clamp(0,(var(--k,0) - var(--th,0) - var(--sd,.1))*var(--ss,3.2),1);opacity:var(--kc);transform:scale(calc(.6 + (.4 + var(--ov,.12))*var(--kc) - var(--ov,.12)*var(--ks)))}
+.fx-punch .w.em{--ov:.24;--sd:.16;--ss:2.6}
+.fx-ripple .c{--kc:clamp(0,(var(--k,0) - var(--th,0))*3,1);opacity:var(--kc);transform:translateX(calc((1 - var(--kc))*var(--jx,0px))) scale(calc(.7 + .3*var(--kc)))}
+.settle-sub{--ks:clamp(0,(var(--k,0) - .55)*4,1);opacity:var(--ks);transform:translateY(calc((1 - var(--ks))*12px))}
+.settle-cta{--kb:clamp(0,(var(--k,0) - .72)*5,1);opacity:var(--kb);transform:translateY(calc((1 - var(--kb))*12px));display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:34px;visibility:hidden}
+.settle-cta .btn{text-shadow:none}
+.fade-k{opacity:var(--k,0)}
+.cue{position:absolute;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--text-secondary);transition:opacity .5s var(--ease-out)}
+.cue.gone{opacity:0}
+.ring{width:40px;height:40px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:2}
+.ring .track{stroke:rgba(236,239,232,.15)}
+.ring .fill{stroke:var(--accent);stroke-dasharray:126;stroke-dashoffset:var(--ld,126);transition:stroke-dashoffset .2s linear}
+.chev{width:22px;height:22px;stroke:var(--accent);fill:none;stroke-width:1.6}
+.chev.live{animation:nudge 2.4s var(--ease-io) -1s infinite}
+@keyframes nudge{50%{transform:translateY(5px)}}
+@media (max-height:560px){.cue{display:none}}
+
+/* ---------- static hero (phones, portrait tablets, reduced motion) ---------- */
+.hero-static{display:none;position:relative;min-height:100vh;min-height:100svh;align-items:flex-end;padding:calc(var(--nav-h) + 40px) var(--gutter) calc(56px + env(safe-area-inset-bottom,0px));background:#050B09 50% 40%/cover no-repeat;overflow:hidden}
+.hero-static::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,11,9,.35) 0%,rgba(5,11,9,.15) 35%,rgba(5,11,9,.82) 70%,var(--canvas) 100%)}
+.hero-static{padding-inline:max(var(--gutter),calc((100% - 1240px)/2 + var(--gutter)))}
+.hs-in{position:relative;z-index:2;max-width:620px}
+.hero-static::before{z-index:1}
+/* the drop plays once on phones, then rests on the rings; it sits exactly where the still image does */
+.hs-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;opacity:0;transition:opacity .6s var(--ease-out);pointer-events:none}
+.hs-vid.live{opacity:1}
+.hs-in h1{font-size:clamp(2.1rem,8.6vw,3.6rem);line-height:1.06;margin-top:18px}
+.hs-in h1 b{font-weight:500;color:var(--accent-hover)}
+.hs-in p.sub{margin-top:18px;max-width:38ch}
+.hs-in .btn{margin-top:28px}
+@media (max-width:720px),(orientation:portrait) and (max-width:1024px),(orientation:portrait) and (pointer:coarse),(orientation:landscape) and (pointer:coarse) and (max-height:560px),(prefers-reduced-motion:reduce){
+  .hero{display:none}
+  .hero-static{display:flex;background-image:url("media/8308c047-4295-4619-a58f-76b538938f5e.jpg")}
+}
+/* keep the gold rings clear of the copy: portrait shows them above the text, wide layouts darken the text side */
+@media (orientation:portrait){
+  .hero-static{background-size:auto 60%;background-position:50% 0}
+  .hs-vid{height:60%;object-position:50% 0}
+  .hero-static::before{background:linear-gradient(180deg,rgba(5,11,9,.35) 0%,rgba(5,11,9,0) 22%,rgba(5,11,9,0) 46%,#050B09 60%,var(--canvas) 100%)}
+}
+@media (orientation:landscape){
+  .hero-static::before{background:linear-gradient(90deg,rgba(5,11,9,.92) 0%,rgba(5,11,9,.82) 55%,rgba(5,11,9,.35) 85%,rgba(5,11,9,.15) 100%),linear-gradient(180deg,rgba(5,11,9,.35) 0%,rgba(5,11,9,0) 35%,rgba(5,11,9,.6) 78%,var(--canvas) 100%)}
+}
+
+/* ---------- shared section scaffolding ---------- */
+section{position:relative}
+.sec{padding-block:clamp(96px,14vh,170px)}
+.sec-head{display:grid;gap:22px;max-width:760px}
+.sec-head h2{font-size:clamp(1.8rem,3.6vw,3.1rem)}
+.lede{color:var(--text-secondary);font-size:clamp(1.02rem,1.2vw,1.12rem);max-width:60ch}
+.divider{width:100%;height:24px;color:var(--accent)}
+.divider path{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:600;stroke-dashoffset:600;opacity:.55;transition:stroke-dashoffset 1.8s var(--ease-out)}
+.divider circle{fill:currentColor;opacity:0;transition:opacity .8s var(--ease-out) .6s}
+.divider.in path{stroke-dashoffset:0}
+.divider.in circle{opacity:.9}
+/* reveal choreography (only when JS is running) */
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease-out),transform .9s var(--ease-out);transition-delay:calc(var(--i,0)*110ms)}
+.js .in .rv,.js .rv.in{opacity:1;transform:none}
+.js .settled .rv,.js .rv.settled{transition-delay:0s!important}
+.js .in .card.rv:hover{transform:translateY(-3px)}
+.js .settled .card.rv{transition:border-color .5s var(--ease-out),transform .5s var(--ease-out)}
+.js .settled .hold.rv{transition:border-color .4s var(--ease-out),background-color .4s var(--ease-out)}
+.js .settled .btn.rv{transition:background-color .35s var(--ease-out),transform .35s var(--ease-out)}
+.js .in .btn.rv:active{transform:scale(.98)}
+.rings{position:absolute;pointer-events:none;color:var(--accent)}
+.rings circle{fill:none;stroke:currentColor;stroke-width:.6;stroke-dasharray:var(--len);stroke-dashoffset:var(--len);transition:stroke-dashoffset 2.4s var(--ease-out);opacity:.35}
+.rings circle:nth-child(2){transition-delay:.25s;opacity:.22}
+.rings circle:nth-child(3){transition-delay:.5s;opacity:.12}
+.in .rings circle,.rings.in circle{stroke-dashoffset:0}
+.faq .rings circle.dots{stroke-dasharray:3 9;stroke-dashoffset:0}
+
+/* ---------- A. the gray zone ---------- */
+.gray{text-align:center;overflow:hidden}
+.gray .rings{width:min(900px,140vw);max-width:none;left:50%;top:40px;transform:translateX(-50%)}
+.gray .sec-head{margin-inline:auto;justify-items:center}
+.gray .lede{margin-inline:auto;max-width:58ch}
+.chips{margin-top:72px;display:grid;gap:14px;mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.track{display:flex;gap:14px;width:max-content}
+.chip{flex:none;padding:14px 22px;border:1px solid var(--line);border-radius:999px;background:rgba(12,24,20,.6);color:var(--text-secondary);font-size:1rem;white-space:nowrap}
+.chip:nth-child(3n){color:var(--text-primary);border-color:rgba(217,180,107,.3)}
+.live .track{animation:marquee 90s linear infinite}
+.live .track.rev{animation-direction:reverse;animation-duration:110s}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.chips-cap{margin-top:26px;color:var(--text-tertiary)}
+
+/* ---------- B. the light check ---------- */
+.check{background:linear-gradient(180deg,var(--canvas) 0%,#040A08 14%,#040A08 86%,var(--canvas) 100%);--p:0}
+.check-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(40px,6vw,96px);align-items:center}
+.check-copy{display:grid;gap:26px;justify-items:start}
+.check-copy h2{font-size:clamp(1.7rem,3vw,2.6rem);max-width:16ch}
+.hold{position:relative;display:inline-flex;align-items:center;gap:16px;min-height:64px;padding:8px 28px 8px 8px;border-radius:999px;border:1px solid var(--line-strong);background:rgba(12,24,20,.7);cursor:pointer;user-select:none;-webkit-user-select:none;touch-action:none;transition:border-color .4s var(--ease-out),background-color .4s var(--ease-out)}
+.hold:hover{border-color:var(--accent)}
+.hold.holding{background:rgba(217,180,107,.10)}
+.hold-ring{width:48px;height:48px;flex:none;transform:rotate(-90deg)}
+.hold-ring circle{fill:none;stroke-width:2.5}
+.hold-ring .t{stroke:rgba(236,239,232,.14)}
+.hold-ring .f{stroke:var(--accent);stroke-dasharray:132;stroke-dashoffset:calc(132 - 132*var(--p))}
+.hold-ring .dot{fill:var(--accent);stroke:none}
+.hold-label{font-weight:500}
+.check.done .hold{border-color:var(--accent)}
+.hint{color:var(--text-tertiary)}
+.check-done{color:var(--text-secondary);opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .8s var(--ease-out),transform .8s var(--ease-out),visibility 0s .8s}
+.check.done .check-done{opacity:1;visibility:visible;transform:none;transition-delay:0s}
+.check-done a{color:var(--accent-hover);text-underline-offset:4px}
+.scene{position:relative;border-radius:28px;overflow:hidden;border:1px solid var(--line);background:#030806;aspect-ratio:16/10;max-width:100%}
+.scene svg{position:absolute;inset:0;width:100%;height:100%}
+.scene .glow{opacity:calc(.15 + .85*var(--p))}
+.scene .sky{opacity:calc(var(--p)*.9)}
+.sun-g{transition:none}
+.live .scene .halo{animation:halo 6s var(--ease-io) -2s infinite}
+@keyframes halo{50%{opacity:.35}}
+.standards{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;counter-reset:s}
+.standards li{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:baseline;padding:14px 0;border-top:1px solid var(--line);color:var(--text-tertiary);transition:color .7s var(--ease-out),border-color .7s var(--ease-out)}
+.standards li::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:500 .72rem/1 var(--f-mono);letter-spacing:.12em;color:var(--text-tertiary);transition:color .7s var(--ease-out)}
+.standards li.lit{color:var(--text-primary);border-color:rgba(217,180,107,.45)}
+.standards li.lit::before{color:var(--accent)}
+@media (max-width:900px){.check-grid{grid-template-columns:1fr}.standards{grid-template-columns:1fr}}
+
+/* ---------- C. how it will work ---------- */
+.steps{margin-top:64px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2.4vw,32px)}
+.step{display:grid;grid-template-rows:auto 1fr;border-radius:22px;overflow:hidden;background:var(--panel);border:1px solid var(--line)}
+.step figure{margin:0;aspect-ratio:4/3;overflow:hidden;background:#050B09}
+.step img{width:100%;height:100%;object-fit:cover;transform:scale(1.04)}
+.live .step img{animation:breathe 26s var(--ease-io) infinite alternate}
+.step:nth-child(2) img{animation-delay:-9s}
+.step:nth-child(3) img{animation-delay:-17s}
+@keyframes breathe{to{transform:scale(1.11)}}
+.step-body{padding:26px 26px 30px;display:grid;gap:12px;align-content:start}
+.step-n{font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--accent)}
+.step h3{font-size:1.25rem;font-weight:500;letter-spacing:-.01em}
+.step p{color:var(--text-secondary);font-size:1rem}
+@media (max-width:900px){.steps{grid-template-columns:1fr}.step{grid-template-columns:minmax(0,2fr) minmax(0,3fr);grid-template-rows:auto}.step figure{aspect-ratio:auto;height:100%}}
+@media (max-width:560px){.step{grid-template-columns:1fr}.step figure{aspect-ratio:16/10}}
+
+/* ---------- the pharmacy: vials pinned while the copy builds (scroll sets --p from 0 to 1) ---------- */
+.vials{--p:0;position:relative;height:230vh}
+.vials-pin{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;align-items:center;background:#030806}
+.vials-fig{position:absolute;inset:0;margin:0}
+.vials-fig>*{position:absolute;inset:0}
+.vials-fig img{width:100%;height:100%;object-fit:cover;object-position:72% 50%;transform-origin:68% 55%;transform:scale(calc(1.22 - .22*var(--p))) translateX(calc((1 - var(--p))*3%));filter:brightness(calc(.45 + .55*min(1,var(--p)*1.6)));will-change:transform}
+.vials-sweep{pointer-events:none;mix-blend-mode:screen;background:linear-gradient(105deg,transparent 40%,rgba(232,201,138,.16) 50%,transparent 60%);background-size:300% 100%;background-position:calc(100% - var(--p)*100%) 0;opacity:calc(1 - var(--p)*.6)}
+.vials-scrim{pointer-events:none;background:linear-gradient(90deg,rgba(3,8,6,.94) 0%,rgba(3,8,6,.86) 30%,rgba(3,8,6,.35) 52%,rgba(3,8,6,0) 66%),linear-gradient(180deg,var(--canvas) 0%,rgba(3,8,6,0) 14%,rgba(3,8,6,0) 82%,var(--canvas) 100%)}
+.vials-copy{position:relative;z-index:2;max-width:500px;display:grid;gap:22px;padding-top:var(--nav-h)}
+.vials-copy h2{font-size:clamp(1.8rem,3.4vw,2.9rem);text-wrap:balance}
+.vials-copy h2 b{font-weight:500;color:var(--accent-hover)}
+.vials-copy .lede{color:#C2D0C8}
+.vpoints{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:14px}
+.vpoint{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;padding:14px 0 0;border-top:1px solid rgba(217,180,107,.22)}
+.vpoint i{grid-row:span 2;width:9px;height:9px;margin-top:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(217,180,107,.14),0 0 18px rgba(217,180,107,.55)}
+.vpoint h3{font-size:1.02rem;font-weight:500;line-height:1.35}
+.vpoint p{color:#B4C4BB;font-size:.95rem}
+.vials-fine{font-size:.8rem;color:#9DAFA6;max-width:58ch}
+.js .vials .vs{opacity:0;transform:translateY(18px);transition:opacity .8s var(--ease-out),transform .8s var(--ease-out)}
+.js .vials .vs.on{opacity:1;transform:none}
+/* phones, portrait tablets and short screens: no pin, the image sits above the copy and drifts as it passes */
+@media (max-width:900px),(max-height:700px),(orientation:portrait) and (max-width:1024px){
+  .vials{height:auto;padding-block:clamp(72px,12vh,120px)}
+  .vials-pin{position:relative;height:auto;display:block;background:none;overflow:visible}
+  .vials-fig{position:relative;inset:auto;aspect-ratio:4/3;overflow:hidden;border-radius:22px;border:1px solid var(--line);margin-inline:max(var(--gutter),calc((100% - 1240px)/2 + var(--gutter)))}
+  .vials-fig img{object-position:74% 50%;transform-origin:70% 55%}
+  .vials-scrim{background:linear-gradient(180deg,rgba(3,8,6,0) 60%,rgba(3,8,6,.5) 100%)}
+  .vials-copy{max-width:640px;padding-top:40px}
+}
+@media (min-width:901px) and (max-height:700px){.vials-fig{aspect-ratio:16/8}}
+
+/* ---------- D. areas of care ---------- */
+.areas-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap}
+.areas-note{color:var(--text-tertiary);max-width:34ch}
+.rows{margin-top:56px;border-bottom:1px solid var(--line)}
+.row{position:relative;display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr) auto;gap:clamp(20px,4vw,64px);align-items:baseline;padding:34px 0;border-top:1px solid var(--line);transition:background-color .5s var(--ease-out)}
+.row::after{content:"";position:absolute;left:0;bottom:-1px;height:1px;width:100%;background:linear-gradient(90deg,var(--accent),transparent);transform:scaleX(0);transform-origin:left;transition:transform .9s var(--ease-out)}
+.row:hover::after{transform:scaleX(1)}
+.row h3{font-size:clamp(1.3rem,2.2vw,1.9rem);display:flex;align-items:baseline;gap:14px}
+.row h3 i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 var(--accent-muted);transform:translateY(-3px);flex:none}
+.live .row h3 i{animation:pulse 5s var(--ease-io) infinite}
+.row:nth-child(2) h3 i{animation-delay:-1.7s}
+.row:nth-child(3) h3 i{animation-delay:-3.3s}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(217,180,107,0)}0%{box-shadow:0 0 0 0 rgba(217,180,107,.35)}}
+.row p{color:var(--text-secondary)}
+.tag{white-space:nowrap;padding:8px 14px;border-radius:999px;border:1px solid rgba(30,143,104,.55);color:#7FD3B2;font-size:.68rem}
+@media (max-width:860px){.row{grid-template-columns:1fr;gap:12px}.tag{justify-self:start}}
+
+/* ---------- E. learn ---------- */
+.learn-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(40px,6vw,96px);align-items:start}
+.learn-intro{position:sticky;top:calc(var(--nav-h) + 40px);display:grid;gap:22px}
+.learn-intro h2{font-size:clamp(1.8rem,2.8vw,2.4rem)}
+.player{margin-top:14px;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;padding:16px 20px 16px 16px;border-radius:20px;border:1px solid var(--line);background:var(--panel)}
+.play{position:relative;width:56px;height:56px;border-radius:50%;border:0;background:var(--accent);color:#08110D;cursor:pointer;display:grid;place-items:center;transition:background-color .3s var(--ease-out)}
+.play:hover{background:var(--accent-hover)}
+.play::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:1px solid var(--accent);opacity:0}
+.live .play::after{animation:ping 5s var(--ease-out) -1s infinite}
+@keyframes ping{0%{opacity:.6;transform:scale(.9)}60%,100%{opacity:0;transform:scale(1.25)}}
+.play svg{width:20px;height:20px}
+.play .i-pause{display:none}
+.player.playing .play .i-play{display:none}
+.player.playing .play .i-pause{display:block}
+.p-meta{display:grid;gap:8px;min-width:0}
+.p-title{font-weight:500;font-size:.98rem}
+.wave{display:flex;align-items:center;gap:3px;height:28px;cursor:pointer;overflow:hidden;min-width:0}
+.wave span{flex:1;min-width:2px;border-radius:2px;background:rgba(236,239,232,.38);height:calc(var(--h)*100%);transform-origin:center;transition:background-color .2s linear}
+.wave span.done{background:var(--accent)}
+.player.playing .wave span{animation:bar 1.4s var(--ease-io) infinite alternate;animation-delay:var(--d)}
+@keyframes bar{to{transform:scaleY(.55)}}
+.p-time{font:400 .72rem/1 var(--f-mono);letter-spacing:.1em;color:var(--text-tertiary);font-variant-numeric:tabular-nums}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.transcript summary{cursor:pointer;font:500 .75rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);padding:14px 0;list-style:none}
+.transcript summary::-webkit-details-marker{display:none}
+.transcript summary::before{content:"+ "}
+.transcript[open] summary::before{content:"\2212  "}
+.transcript p{color:var(--text-secondary);font-size:.95rem;max-width:60ch}
+.card{padding:28px;border-radius:22px;background:var(--panel);border:1px solid var(--line);display:grid;gap:14px;align-content:start;transition:border-color .5s var(--ease-out),transform .5s var(--ease-out)}
+.card:hover{border-color:rgba(217,180,107,.35);transform:translateY(-3px)}
+.card h3{font-size:1.08rem;font-weight:500;letter-spacing:-.005em;line-height:1.3}
+.card p{color:var(--text-secondary);font-size:.98rem}
+.card .mono{color:var(--accent)}
+@media (max-width:980px){.learn-grid{grid-template-columns:1fr}.learn-intro{position:static}}
+@media (max-width:620px){.cards{grid-template-columns:1fr}}
+
+/* ---------- F. faq ---------- */
+.faq{overflow:hidden}
+.faq .rings{width:520px;right:-160px;top:60px}
+.live.faq .rings svg{animation:spin 90s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.faq-wrap{max-width:860px}
+.qa{margin-top:52px;border-bottom:1px solid var(--line)}
+.q{width:100%;display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;background:none;border:0;border-top:1px solid var(--line);text-align:left;cursor:pointer;font:400 clamp(1.05rem,1.5vw,1.25rem)/1.4 var(--f-body)}
+.q:hover{color:var(--accent-hover)}
+.q .pm{position:relative;width:14px;height:14px;flex:none;transform:translateY(1px)}
+.q .pm::before,.q .pm::after{content:"";position:absolute;left:0;top:6px;width:14px;height:1.5px;background:var(--accent);transition:transform .5s var(--ease-out)}
+.q .pm::after{transform:rotate(90deg)}
+.q[aria-expanded="true"] .pm::after{transform:rotate(0deg)}
+.js .a{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .55s var(--ease-out),visibility 0s .55s}
+.a>div{overflow:hidden}
+.a p{padding:0 0 28px;color:var(--text-secondary);max-width:64ch}
+.js .q[aria-expanded="true"]+.a{grid-template-rows:1fr;visibility:visible;transition-delay:0s}
+html:not(.js) .q .pm{display:none}
+
+/* ---------- G. waitlist ---------- */
+.waitlist{padding-block:clamp(120px,18vh,200px);overflow:hidden;background:#050B09}
+.wl-bg{position:absolute;inset:0;background:url("media/8308c047-4295-4619-a58f-76b538938f5e.jpg") center 60%/cover no-repeat;opacity:.55}
+.waitlist::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,var(--canvas) 0%,rgba(7,15,12,.35) 30%,rgba(7,15,12,.55) 70%,var(--canvas) 100%)}
+.motes{position:absolute;inset:0;z-index:1;pointer-events:none}
+.motes i{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--accent);opacity:.0;box-shadow:0 0 8px rgba(217,180,107,.8)}
+.live .motes i{animation:mote 14s var(--ease-io) infinite}
+@keyframes mote{0%{opacity:0;transform:translateY(0)}30%{opacity:.7}100%{opacity:0;transform:translateY(-90px)}}
+.wl-in{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,6vw,96px);align-items:center}
+.wl-copy{display:grid;gap:22px}
+.wl-copy h2{font-size:clamp(2rem,4.4vw,3.8rem)}
+.wl-copy h2 b{font-weight:500;color:var(--accent-hover)}
+.form{padding:clamp(24px,3vw,40px);border-radius:28px;background:rgba(8,17,13,.78);border:1px solid rgba(217,180,107,.28);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);display:grid;gap:18px}
+.fields{display:grid;gap:18px}
+.field{display:grid;gap:8px}
+.field label,.field .lbl{font-size:.85rem;color:var(--text-secondary)}
+.input{width:100%;min-height:52px;padding:0 18px;border-radius:14px;border:1px solid rgba(236,239,232,.42);background:rgba(4,10,8,.6);color:var(--text-primary);transition:border-color .3s var(--ease-out),background-color .3s var(--ease-out)}
+.input::placeholder{color:var(--text-tertiary)}
+.input:hover{border-color:rgba(236,239,232,.5)}
+.input:focus{outline:none;border-color:var(--accent);background:rgba(4,10,8,.85)}
+select.input{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23D9B46B' stroke-width='1.6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 18px center;padding-right:44px}
+select.input option{background:#0C1814;color:var(--text-primary)}
+.pills{display:flex;flex-wrap:wrap;gap:10px;border:0;margin:0;padding:0}
+.pills legend{padding:0;margin-bottom:10px;font-size:.85rem;color:var(--text-secondary)}
+.pill{position:relative}
+.pill input{position:absolute;opacity:0;inset:0;cursor:pointer;margin:0}
+.pill span{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(236,239,232,.42);font-size:.9rem;color:var(--text-secondary);transition:all .3s var(--ease-out)}
+.pill input:checked+span{border-color:var(--accent);color:#08110D;background:var(--accent)}
+.pill input:focus-visible+span{outline:2px solid var(--accent);outline-offset:3px}
+.consent{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;font-size:.88rem;color:var(--text-secondary);cursor:pointer}
+.consent input{width:20px;height:20px;margin:2px 0 0;accent-color:var(--accent)}
+.form .btn{width:100%;min-height:56px;font-size:1rem}
+.form-msg{min-height:1.4em;font-size:.9rem;color:#F0A58C}
+.form.sent .fields{display:none}
+.success{display:none;gap:14px;text-align:center;justify-items:center;padding:24px 0}
+.form.sent .success{display:grid}
+.success svg{width:64px;height:64px}
+.success h3{font-size:1.4rem;font-weight:500}
+.success p{color:var(--text-secondary);max-width:32ch}
+@media (max-width:900px){.wl-in{grid-template-columns:1fr}}
+
+/* ---------- footer ---------- */
+.foot{padding-block:64px 48px;border-top:1px solid var(--line);color:var(--text-tertiary);font-size:.86rem}
+.foot-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px}
+.foot-legal{display:grid;gap:12px;max-width:72ch}
+.foot-bottom{margin-top:40px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.foot-bottom a,.consent a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.foot-bottom a:hover,.consent a:hover{color:var(--accent-hover)}
+@media (max-width:760px){.foot-in{grid-template-columns:1fr}}
+
+/* ---------- pause + reduced motion ---------- */
+body.paused *,body.paused *::before,body.paused *::after{animation-play-state:paused!important}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;transition-delay:0s!important;scroll-behavior:auto!important}
+  .js .rv{opacity:1;transform:none}
+  .divider path,.rings circle{stroke-dashoffset:0}
+  .divider circle{opacity:.9}
+  .check-done{opacity:1;transform:none}
+  .standards li{color:var(--text-primary)}
+}
+</style>
+<noscript><style>.hero{display:none}.hero-static{display:flex;background-image:url("media/8308c047-4295-4619-a58f-76b538938f5e.jpg")}</style></noscript>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="env" aria-hidden="true"><div class="grain"></div></div>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><linearGradient id="ah-g" gradientUnits="userSpaceOnUse" x1="6" y1="6" x2="94" y2="94"><stop offset="0" stop-color="#F7E3B0"/><stop offset=".3" stop-color="#E8C98A"/><stop offset=".55" stop-color="#B98A42"/><stop offset=".78" stop-color="#F3DCA6"/><stop offset="1" stop-color="#A97E3A"/></linearGradient><linearGradient id="ah-v" gradientUnits="userSpaceOnUse" x1="0" y1="38" x2="0" y2="60"><stop offset="0" stop-color="#FBEBC2"/><stop offset=".5" stop-color="#E8C98A"/><stop offset="1" stop-color="#B98A42"/></linearGradient><linearGradient id="ah-h" gradientUnits="userSpaceOnUse" x1="-6" y1="0" x2="106" y2="0"><stop offset="0" stop-color="#D9B46B" stop-opacity="0"/><stop offset=".12" stop-color="#E8C98A"/><stop offset=".5" stop-color="#F7E3B0"/><stop offset=".88" stop-color="#E8C98A"/><stop offset="1" stop-color="#D9B46B" stop-opacity="0"/></linearGradient></defs></svg>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Apollo Health home">
+      <span class="wm" aria-hidden="true"><span class="lt">AP</span><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="url(#ah-g)" stroke-width="8"/></svg><span class="lt">LL</span><svg class="o2" viewBox="-8 0 116 100"><circle cx="50" cy="50" r="44" fill="none" stroke="url(#ah-g)" stroke-width="8"/><path d="M28.5 60A21.5 21.5 0 0 1 71.5 60Z" fill="url(#ah-v)"/><line x1="-6" y1="60" x2="106" y2="60" stroke="url(#ah-h)" stroke-width="6"/></svg></span>
+      <span class="brand-sub" aria-hidden="true">HEALTH</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#pharmacy">Pharmacy</a></li>
+      <li><a href="#care">Care</a></li>
+      <li><a href="#learn">Learn</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a class="btn btn-gold" href="#waitlist">Join the waitlist</a>
+  </div>
+</nav>
+
+<header id="top">
+  <section class="hero" aria-label="Introduction">
+    <div class="stage">
+      <div class="poster" aria-hidden="true"></div>
+      <div class="poster poster-end" aria-hidden="true"></div>
+      <video id="hero" preload="none" muted playsinline aria-hidden="true" tabindex="-1"></video>
+      <div class="scrim" aria-hidden="true"></div>
+
+      <div class="band pos-left" data-a="0" data-b="0.22" data-first="1" style="--sa:.6">
+        <p class="kicker">Apollo Health · Opening soon</p>
+        <p class="hl split fx-drift" data-split="words" data-spread="0.5">Online care has a gray zone.</p>
+        <p class="sub split fx-drift" data-split="words" data-spread="0.4" data-offset="0.2">Who prescribes it. Where it's made. How you cancel.</p>
+      </div>
+
+      <div class="band pos-right" data-a="0.26" data-b="0.48" style="--sa:.6">
+        <p class="kicker fade-k">The opposite</p>
+        <p class="hl fx-blur" data-blur>We're building the opposite. Every&nbsp;answer, in the light.</p>
+      </div>
+
+      <div class="band pos-left-high" data-a="0.52" data-b="0.72" style="--sa:.68">
+        <p class="hl split fx-punch" data-split="words" data-spread="0.45" data-em="clinician|pharmacy|terms">A&nbsp;real clinician. A&nbsp;real pharmacy. Real terms.</p>
+      </div>
+
+      <div class="band pos-top" data-a="0.80" data-b="1" data-last="1" data-ramp="0.06" style="--sa:.66">
+        <p class="kicker fade-k">Apollo Health</p>
+        <h1 class="split fx-ripple" data-split="chars" data-spread="0.45">The future of peptide care.</h1>
+        <p class="sub settle-sub">Prescription weight care and peptide therapy, with a licensed clinician and a pharmacy you can name. Opening soon.</p>
+        <div class="settle-cta">
+          <a class="btn btn-gold" href="#waitlist">Join the waitlist <span class="arr" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="#how">How it works</a>
+        </div>
+      </div>
+
+      <div class="cue" aria-hidden="true">
+        <svg class="ring" viewBox="0 0 48 48"><circle class="track" cx="24" cy="24" r="20"/><circle class="fill" cx="24" cy="24" r="20"/></svg>
+        <span class="mono">Scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-static" aria-label="Introduction">
+    <video class="hs-vid" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+    <div class="hs-in">
+      <p class="kicker">Apollo Health · Opening soon</p>
+      <h1>The future of <b>peptide care.</b></h1>
+      <p class="sub">Prescription weight care and peptide therapy, with a licensed clinician and a pharmacy you can name. We're opening soon.</p>
+      <a class="btn btn-gold" href="#waitlist">Join the waitlist <span class="arr" aria-hidden="true">→</span></a>
+    </div>
+  </section>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <section class="gray sec" aria-labelledby="gray-h">
+    <svg class="rings" viewBox="0 0 900 900" aria-hidden="true"><circle cx="450" cy="450" r="440" style="--len:2765"/><circle cx="450" cy="450" r="330" style="--len:2074"/><circle cx="450" cy="450" r="220" style="--len:1383"/></svg>
+    <div class="wrap">
+      <div class="sec-head" data-reveal>
+        <p class="kicker rv">The problem</p>
+        <h2 id="gray-h" class="rv" style="--i:1">Online weight care grew fast. Straight answers didn't.</h2>
+        <p class="lede rv" style="--i:2">In 2026 the FDA sent more than 50 warning letters to telehealth companies over false or misleading claims about compounded GLP-1 drugs. You should know exactly who you're dealing with before you start.</p>
+      </div>
+    </div>
+    <div class="chips">
+      <div class="track" aria-hidden="true"></div>
+      <div class="track rev" aria-hidden="true"></div>
+      <ul class="sr" aria-label="Questions to ask before you trust any provider">
+        <li>Who is actually prescribing this?</li>
+        <li>Is this pharmacy licensed?</li>
+        <li>Why was I approved before anyone read my health history?</li>
+        <li>Can I talk to a real clinician?</li>
+        <li>Why is it so hard to cancel?</li>
+        <li>What's actually in the vial?</li>
+        <li>Is this the same as the brand name?</li>
+      </ul>
+    </div>
+    <p class="chips-cap mono">Questions to ask before you trust any provider.</p>
+  </section>
+
+  <svg class="divider wrap" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true" data-reveal><path d="M600 12H0"/><path d="M600 12H1200"/><circle cx="600" cy="12" r="3"/></svg>
+
+  <section class="check sec" id="check" aria-labelledby="check-h">
+    <div class="wrap check-grid">
+      <div class="check-copy" data-reveal>
+        <p class="kicker rv">The Light Check</p>
+        <h2 id="check-h" class="rv" style="--i:1">Six things you should see before you trust any provider.</h2>
+        <button class="hold rv" style="--i:2" id="hold" type="button" aria-describedby="hold-hint">
+          <svg class="hold-ring" viewBox="0 0 48 48" aria-hidden="true"><circle class="t" cx="24" cy="24" r="21"/><circle class="f" cx="24" cy="24" r="21"/><circle class="dot" cx="45" cy="24" r="2.4"/></svg>
+          <span class="hold-label">Hold to bring it into the light</span>
+        </button>
+        <p id="hold-hint" class="hint mono rv" style="--i:3">Press and hold. Or hold the space bar.</p>
+        <p class="check-done">Apollo is being built to show you all six. <a href="#waitlist">Join the waitlist</a></p>
+        <p class="sr" role="status" id="check-status"></p>
+      </div>
+      <div data-reveal>
+        <div class="scene rv" aria-hidden="true">
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="g-sky" cx="50%" cy="78%" r="70%"><stop offset="0" stop-color="#1E8F68" stop-opacity=".55"/><stop offset=".45" stop-color="#0E3D2E" stop-opacity=".35"/><stop offset="1" stop-color="#030806" stop-opacity="0"/></radialGradient>
+              <radialGradient id="g-sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F3DCA6"/><stop offset=".55" stop-color="#D9B46B"/><stop offset="1" stop-color="#D9B46B" stop-opacity="0"/></radialGradient>
+              <radialGradient id="g-glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#D9B46B" stop-opacity=".55"/><stop offset="1" stop-color="#D9B46B" stop-opacity="0"/></radialGradient>
+              <linearGradient id="g-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1A15"/><stop offset="1" stop-color="#030806"/></linearGradient>
+              <clipPath id="c-above"><rect width="640" height="286"/></clipPath>
+            </defs>
+            <rect class="sky" width="640" height="286" fill="url(#g-sky)"/>
+            <g clip-path="url(#c-above)">
+              <g class="sun-g" id="sun">
+                <circle class="glow" r="150" fill="url(#g-glow)"/>
+                <circle class="halo" r="62" fill="none" stroke="#D9B46B" stroke-width="1" opacity=".6"/>
+                <circle r="34" fill="url(#g-sun)"/>
+              </g>
+            </g>
+            <path d="M40 286 A280 280 0 0 1 600 286" fill="none" stroke="#D9B46B" stroke-width=".8" stroke-dasharray="2 7" opacity=".35"/>
+            <rect y="286" width="640" height="114" fill="url(#g-sea)"/>
+            <g id="sun-refl" opacity="0"><ellipse cx="320" cy="300" rx="60" ry="5" fill="#D9B46B" opacity=".5"/><ellipse cx="320" cy="318" rx="38" ry="3" fill="#D9B46B" opacity=".3"/><ellipse cx="320" cy="338" rx="22" ry="2" fill="#D9B46B" opacity=".2"/></g>
+            <path d="M0 286H640" stroke="#D9B46B" stroke-width="1" opacity=".7"/>
+          </svg>
+        </div>
+        <ol class="standards" id="standards">
+          <li>A clinician licensed in your state reviews every request.</li>
+          <li>No prescription before a real review of your health history.</li>
+          <li>A pharmacy with a name and a license number you can look up.</li>
+          <li>Pharmacy license and testing information, available on request.</li>
+          <li>A care team you can message, not a chatbot maze.</li>
+          <li>Prices and cancellation terms in writing, before you pay.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="how" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="sec-head" data-reveal>
+        <p class="kicker rv">How it will work</p>
+        <h2 id="how-h" class="rv" style="--i:1">Three steps. No guessing.</h2>
+      </div>
+      <ol class="steps" data-reveal style="list-style:none;padding:0">
+        <li class="step rv">
+          <figure><img src="media/a4a26504-3b70-4b6c-aff1-623bb97959b6.jpg" alt="A black glass tablet on dark marble, its blank screen glowing emerald and gold" loading="lazy" width="1600" height="1194"></figure>
+          <div class="step-body"><span class="step-n">01</span><h3>Tell us about you.</h3><p>A private online health history. Take your time. It's reviewed by a person, not a quiz.</p></div>
+        </li>
+        <li class="step rv" style="--i:1">
+          <figure><img src="media/aeb9a70d-1d68-43c7-88b3-ec7b92574740.jpg" alt="A stethoscope with a gold chestpiece resting on dark glass in emerald light" loading="lazy" width="1600" height="1194"></figure>
+          <div class="step-body"><span class="step-n">02</span><h3>A licensed clinician reviews it.</h3><p>They decide whether a treatment fits you. Sometimes the answer is no, and that's the system working.</p></div>
+        </li>
+        <li class="step rv" style="--i:2">
+          <figure><img src="media/dfa40c33-6319-4b20-9a2d-b1879be974c7.jpg" alt="An open matte black box with an insulated liner and cold pack, edged in gold light" loading="lazy" width="1600" height="1194"></figure>
+          <div class="step-body"><span class="step-n">03</span><h3>If prescribed, it comes to you.</h3><p>Made and shipped by a pharmacy licensed in your state, with clear instructions and a care team to message.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="vials" id="pharmacy" aria-labelledby="ph-h">
+    <div class="vials-pin">
+      <figure class="vials-fig">
+        <img src="media/vials.jpg" alt="Three clear, unlabeled glass vials with black and gold caps on dark gold-veined marble, lit emerald from behind" loading="lazy" width="1344" height="752">
+        <div class="vials-sweep" aria-hidden="true"></div>
+        <div class="vials-scrim" aria-hidden="true"></div>
+      </figure>
+      <div class="wrap">
+        <div class="vials-copy">
+          <p class="kicker vs" data-at="0.04">The pharmacy</p>
+          <h2 id="ph-h" class="vs" data-at="0.1">Made by a pharmacy <b>you can name.</b></h2>
+          <p class="lede vs" data-at="0.18">If your clinician prescribes a peptide therapy, a pharmacy licensed in your state prepares it for you and ships it with clear instructions.</p>
+          <ul class="vpoints">
+            <li class="vpoint vs" data-at="0.32"><i aria-hidden="true"></i><h3>Named and licensed</h3><p>You'll see the pharmacy's name and license number before you pay.</p></li>
+            <li class="vpoint vs" data-at="0.44"><i aria-hidden="true"></i><h3>Testing information on request</h3><p>Ask for the pharmacy's license and testing information any time.</p></li>
+            <li class="vpoint vs" data-at="0.56"><i aria-hidden="true"></i><h3>Packed for the trip</h3><p>Shipped in temperature-appropriate packaging when your medication needs it.</p></li>
+          </ul>
+          <p class="vials-fine vs" data-at="0.66">Prescription only. Compounded medications are not FDA-approved and are not reviewed by the FDA for safety, effectiveness or quality. Image is illustrative.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="care" aria-labelledby="care-h">
+    <div class="wrap">
+      <div class="areas-head" data-reveal>
+        <div class="sec-head">
+          <p class="kicker rv">Areas of care</p>
+          <h2 id="care-h" class="rv" style="--i:1">Prescription care, led by a clinician.</h2>
+        </div>
+        <p class="areas-note rv" style="--i:2">No prices yet. We'll publish clear pricing before we open.</p>
+      </div>
+      <div class="rows" data-reveal>
+        <article class="row rv">
+          <h3><i aria-hidden="true"></i>GLP-1 weight care</h3>
+          <p>Prescription GLP-1 medications, with FDA-approved brand-name options first. A compounded version is only considered when your clinician documents a medical reason you need one.</p>
+          <span class="tag mono">Rx only · opening soon</span>
+        </article>
+        <article class="row rv" style="--i:1">
+          <h3><i aria-hidden="true"></i>Peptide therapy</h3>
+          <p>Prescription peptide therapy, prescribed and followed by a clinician, only where the law and the evidence support it.</p>
+          <span class="tag mono">Rx only · opening soon</span>
+        </article>
+        <article class="row rv" style="--i:2">
+          <h3><i aria-hidden="true"></i>NAD+ and glutathione</h3>
+          <p>By prescription only, when a clinician decides they fit your plan. The human evidence for these is still limited.</p>
+          <span class="tag mono">Rx only · opening soon</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <svg class="divider wrap" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true" data-reveal><path d="M600 12H0"/><path d="M600 12H1200"/><circle cx="600" cy="12" r="3"/></svg>
+
+  <section class="sec" id="learn" aria-labelledby="learn-h">
+    <div class="wrap learn-grid">
+      <div class="learn-intro" data-reveal>
+        <p class="kicker rv">Learn</p>
+        <h2 id="learn-h" class="rv" style="--i:1">Plain answers before you decide.</h2>
+        <div class="player rv" style="--i:2" id="player">
+          <button class="play" id="play" type="button" aria-label="Play: Apollo in under a minute">
+            <svg class="i-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.5v13l11-6.5z" fill="currentColor"/></svg>
+            <svg class="i-pause" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h3.5v14H5zM11.5 3H15v14h-3.5z" fill="currentColor"/></svg>
+          </button>
+          <div class="p-meta">
+            <span class="p-title">Listen: Apollo in under a minute</span>
+            <div class="wave" id="wave" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+            <span class="p-time" id="ptime">0:00 / 0:48</span>
+          </div>
+          <audio id="listen" preload="none" crossorigin="anonymous" src="media/ae28c853-5863-41df-938a-e0fcafb872cc.mp3"></audio>
+        </div>
+        <details class="transcript rv" style="--i:3">
+          <summary>Read the transcript</summary>
+          <p>This is Apollo Health. We're building prescription weight care and peptide therapy for people who want straight answers. Here's how it will work. First, you tell us about yourself, through a private online health history. A real person reviews it. Second, a clinician licensed in your state decides whether a treatment fits you. Sometimes the answer is no, and that's the system working. Third, if you're prescribed something, it's made and shipped by a pharmacy licensed in your state, with clear instructions, and a care team you can message. We'll publish clear prices before we open. We're not seeing patients yet. We're finishing certification and building our care platform first, because that's the right order. Join the waitlist, and we'll email you when Apollo opens in your state.</p>
+        </details>
+      </div>
+      <div class="cards" data-reveal>
+        <article class="card rv"><span class="mono">The medicine</span><h3>How GLP-1 medicines work</h3><p>Semaglutide and tirzepatide mimic natural gut hormones. They slow how fast the stomach empties and act on appetite signals in the brain. Clinicians usually start at a low dose and raise it in steps. The most common side effects are stomach-related, like nausea, especially while the dose goes up. These medicines also carry serious risks, including a boxed warning about thyroid tumors, so they are not right for everyone.</p></article>
+        <article class="card rv" style="--i:1"><span class="mono">The difference</span><h3>Compounded vs brand name</h3><p>A compounded medicine is made by a state-licensed pharmacy for one patient's prescription. It is not FDA-approved, and the FDA does not review compounded drugs for safety, effectiveness, or quality before they are sold. Now that the semaglutide and tirzepatide shortages are over, pharmacies can't make routine copies of these drugs. A prescriber has to document why a patient needs a compounded version.</p></article>
+        <article class="card rv" style="--i:2"><span class="mono">The basics</span><h3>What a peptide actually is</h3><p>A peptide is a short chain of amino acids. Some are approved medicines. Many are still being studied, and the human evidence varies a lot from one peptide to the next.</p></article>
+        <article class="card rv" style="--i:3"><span class="mono">Your checklist</span><h3>Questions to ask any provider</h3><p>Who is the prescriber, and are they licensed in my state? Which pharmacy fills this? Can I see the pharmacy's testing information? How do I cancel?</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec faq" id="faq" aria-labelledby="faq-h">
+    <div class="rings" aria-hidden="true"><svg viewBox="0 0 520 520"><circle class="dots" cx="260" cy="260" r="250" style="--len:1571"/><circle cx="260" cy="260" r="180" style="--len:1131"/><circle cx="260" cy="260" r="110" style="--len:691"/></svg></div>
+    <div class="wrap faq-wrap">
+      <div class="sec-head" data-reveal>
+        <p class="kicker rv">Questions</p>
+        <h2 id="faq-h" class="rv" style="--i:1">Straight answers.</h2>
+      </div>
+      <div class="qa" data-reveal>
+        <div class="rv"><button class="q" type="button" aria-expanded="false" aria-controls="a1" id="q1">Can I sign up today?<span class="pm" aria-hidden="true"></span></button><div class="a" id="a1" role="region" aria-labelledby="q1"><div><p>Not yet. Apollo isn't seeing patients while we finish certification and build our care platform. Join the waitlist and we'll email you when we open in your state.</p></div></div></div>
+        <div class="rv" style="--i:1"><button class="q" type="button" aria-expanded="false" aria-controls="a2" id="q2">Will I get a prescription?<span class="pm" aria-hidden="true"></span></button><div class="a" id="a2" role="region" aria-labelledby="q2"><div><p>Not automatically. A licensed clinician reviews your health history and decides. If a treatment isn't right for you, they'll say so.</p></div></div></div>
+        <div class="rv" style="--i:2"><button class="q" type="button" aria-expanded="false" aria-controls="a3" id="q3">Is compounded medication the same as Ozempic or Wegovy?<span class="pm" aria-hidden="true"></span></button><div class="a" id="a3" role="region" aria-labelledby="q3"><div><p>No. Compounded medicines are made by a state-licensed pharmacy for an individual patient. They are not FDA-approved, and the FDA does not review them for safety, effectiveness, or quality. Your clinician will talk with you about FDA-approved brand-name options first.</p></div></div></div>
+        <div class="rv" style="--i:3"><button class="q" type="button" aria-expanded="false" aria-controls="a4" id="q4">What will it cost?<span class="pm" aria-hidden="true"></span></button><div class="a" id="a4" role="region" aria-labelledby="q4"><div><p>We'll publish prices and all billing terms in writing before we open, so you can see them before you pay.</p></div></div></div>
+        <div class="rv" style="--i:4"><button class="q" type="button" aria-expanded="false" aria-controls="a5" id="q5">Can I cancel?<span class="pm" aria-hidden="true"></span></button><div class="a" id="a5" role="region" aria-labelledby="q5"><div><p>We'll publish our cancellation terms in writing before we open, so you can see them before you pay.</p></div></div></div>
+        <div class="rv" style="--i:5"><button class="q" type="button" aria-expanded="false" aria-controls="a6" id="q6">Which states will you serve?<span class="pm" aria-hidden="true"></span></button><div class="a" id="a6" role="region" aria-labelledby="q6"><div><p>We're confirming states now. Tell us yours on the waitlist. It helps us decide where to open first.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="waitlist" id="waitlist" aria-labelledby="wl-h">
+    <div class="wl-bg" aria-hidden="true"></div>
+    <div class="motes" aria-hidden="true"></div>
+    <div class="wrap wl-in">
+      <div class="wl-copy" data-reveal>
+        <p class="kicker rv">The waitlist</p>
+        <h2 id="wl-h" class="rv" style="--i:1">Be first <b>in line.</b></h2>
+        <p class="lede rv" style="--i:2">We'll email you when Apollo opens in your state. No spam. Unsubscribe any time.</p>
+      </div>
+      <form class="form" id="form" method="post" data-reveal>
+        <div class="fields">
+          <div class="field rv"><label for="f-email">Email</label><input class="input" id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+          <div class="field rv" style="--i:1"><label for="f-state">State</label>
+            <select class="input" id="f-state" name="state" autocomplete="address-level1" required>
+              <option value="" selected disabled>Choose your state</option>
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>District of Columbia</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Oregon</option>
+              <option>Pennsylvania</option>
+              <option>Rhode Island</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virginia</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisconsin</option>
+              <option>Wyoming</option>
+            </select>
+          </div>
+          <fieldset class="pills rv" style="--i:2" id="f-interest">
+            <legend>What brings you here?</legend>
+            <label class="pill"><input type="radio" name="interest" value="Weight care" id="i-1"><span>Weight care</span></label>
+            <label class="pill"><input type="radio" name="interest" value="Peptide therapy" id="i-2"><span>Peptide therapy</span></label>
+            <label class="pill"><input type="radio" name="interest" value="NAD+ or glutathione" id="i-3"><span>NAD+ or glutathione</span></label>
+            <label class="pill"><input type="radio" name="interest" value="Just learning" id="i-4"><span>Just learning</span></label>
+          </fieldset>
+          <label class="consent rv" style="--i:3" for="f-consent"><input type="checkbox" id="f-consent" name="consent" value="yes" required><span>Email me when Apollo opens. I can unsubscribe any time. My answers are used only to plan where Apollo opens, as described in our <a href="privacy.html#health-data">Consumer Health Data Privacy Policy</a>.</span></label>
+          <p class="form-msg" id="form-msg" role="alert"></p>
+          <button class="btn btn-gold rv" style="--i:4" type="submit" id="f-submit">Join the waitlist</button>
+        </div>
+        <div class="success" aria-live="polite">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="27" fill="none" stroke="#D9B46B" stroke-width="1.6"/><path d="M19 37a13 13 0 0 1 26 0z" fill="#E8C98A"/><path d="M2 37h60" stroke="#D9B46B" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>You're on the list.</h3>
+          <p>We'll email you when Apollo opens in your state.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-in">
+      <a class="brand" href="#top" aria-label="Apollo Health, back to top">
+        <span class="foot-lockup"><span class="wm wm-lg" aria-hidden="true"><span class="lt">AP</span><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="url(#ah-g)" stroke-width="4.5"/></svg><span class="lt">LL</span><svg class="o2" viewBox="-8 0 116 100"><circle cx="50" cy="50" r="44" fill="none" stroke="url(#ah-g)" stroke-width="4.5"/><path d="M28.5 60A21.5 21.5 0 0 1 71.5 60Z" fill="url(#ah-v)"/><line x1="-6" y1="60" x2="106" y2="60" stroke="url(#ah-h)" stroke-width="3.6"/></svg></span><span class="brand-sub2" aria-hidden="true">HEALTH</span></span>
+      </a>
+      <div class="foot-legal">
+        <p>Apollo Health is not yet accepting patients. Prescription treatments require an evaluation by a licensed clinician, who decides whether a treatment is appropriate. Compounded medications are not FDA-approved, and the FDA does not review them for safety, effectiveness, or quality. Nothing on this site is medical advice. In an emergency, call 911.</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Apollo Health LLC · <a href="privacy.html">Privacy Policy</a> · <a href="privacy.html#health-data">Consumer Health Data Privacy Policy</a></span>
+      <span class="mono">Prescription care · Opening soon</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(() => {
+  'use strict';
+  document.documentElement.classList.add('js');
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+  const smoothstep = (p, e0, e1) => { const t = clamp((p - e0) / (e1 - e0), 0, 1); return t * t * (3 - 2 * t); };
+  const RMQ = matchMedia('(prefers-reduced-motion: reduce)');
+  const rng = seed => { let s = seed >>> 0; return () => (s = (s * 1664525 + 1013904223) >>> 0) / 4294967296; };
+
+  /* ---------- split headline text once, seeded ---------- */
+  $$('.split').forEach((el, n) => {
+    const text = el.textContent.trim().replace(/[ \t\r\n]+/g, ' ');
+    const r = rng(1337 + n * 97);
+    const mode = el.dataset.split;
+    const spread = +(el.dataset.spread || 0.5);
+    const offset = +(el.dataset.offset || 0);
+    const ems = (el.dataset.em || '').split('|').filter(Boolean);
+    el.textContent = '';
+    const sr = document.createElement('span'); sr.className = 'sr'; sr.textContent = text; el.append(sr);
+    const vis = document.createElement('span'); vis.setAttribute('aria-hidden', 'true');
+    const words = text.split(' ');
+    const total = text.replace(/ /g, '').length;
+    const mid = (total - 1) / 2;
+    let ci = 0;
+    words.forEach((w, wi) => {
+      const ws = document.createElement('span'); ws.className = 'w';
+      if (ems.includes(w.replace(/[.,]/g, ''))) ws.classList.add('em');
+      if (mode === 'words') {
+        ws.textContent = w;
+        ws.style.setProperty('--th', (offset + wi / words.length * spread + r() * 0.04).toFixed(3));
+      } else {
+        for (const ch of w) {
+          const c = document.createElement('span'); c.className = 'c'; c.textContent = ch;
+          const d = mid ? Math.abs(ci - mid) / mid : 0;
+          c.style.setProperty('--th', (d * spread + r() * 0.03).toFixed(3));
+          c.style.setProperty('--jx', ((mid - ci) * 7).toFixed(1) + 'px');
+          ws.append(c); ci++;
+        }
+      }
+      vis.append(ws);
+      if (wi < words.length - 1) vis.append(' ');
+    });
+    el.append(vis);
+  });
+  $$('[data-blur]').forEach(el => {
+    const text = el.textContent.trim();
+    el.innerHTML = '';
+    const sr = document.createElement('span'); sr.className = 'sr'; sr.textContent = text;
+    const soft = document.createElement('span'); soft.className = 'soft'; soft.setAttribute('aria-hidden', 'true');
+    const sharp = document.createElement('span'); sharp.className = 'sharp'; sharp.setAttribute('aria-hidden', 'true');
+    const html = text.replace('in the light.', '<b>in the light.</b>');
+    soft.innerHTML = html; sharp.innerHTML = html;
+    el.append(sr, soft, sharp);
+  });
+
+  /* ---------- scrub hero ---------- */
+  const hero = $('.hero'), stage = $('.stage'), video = $('#hero'), posterLayer = $('.poster'), posterEnd = $('.poster-end');
+  const cue = $('.cue'), ring = $('.ring');
+  const VIDEO_URL = 'media/hero.mp4';
+  const POSTER_URL = 'media/4c7f5b46-b7de-4fe5-9ca5-57abbbee997d.jpg';
+  const ENDING_URL = 'media/8308c047-4295-4619-a58f-76b538938f5e.jpg';
+  const VIDEO_BYTES = 1721670;
+  const bands = $$('.band').map(el => ({
+    el, a: +el.dataset.a, b: +el.dataset.b, ramp: el.dataset.ramp ? +el.dataset.ramp : 0,
+    first: el.dataset.first === '1', last: el.dataset.last === '1', op: -1, k: -1, on: null
+  }));
+  let target = 0, shown = 0, rafId = null, lastTick = 0, heroOnScreen = true, loadK = 0, scrubOn = false;
+  let seekBusy = false, pendingTime = null, endOp = -1;
+
+  function heroProgress() {
+    const range = hero.offsetHeight - innerHeight;
+    if (range <= 0) return 0;
+    return clamp(-hero.getBoundingClientRect().top / range, 0, 1);
+  }
+  function requestSeek(t) {
+    if (!video.duration || !stage.classList.contains('video-ready')) return;
+    if (seekBusy) { pendingTime = t; return; }
+    seekBusy = true;
+    video.currentTime = t;
+  }
+  video.addEventListener('seeked', () => {
+    seekBusy = false;
+    if (pendingTime !== null) { const t = pendingTime; pendingTime = null; requestSeek(t); }
+  });
+  video.addEventListener('error', () => { seekBusy = false; pendingTime = null; failVideo(); });
+
+  function updateCaptions(p) {
+    /* until the video can scrub (loading or failed), cross to the ending frame so the last band never sits on the drop */
+    if (!stage.classList.contains('video-ready')) {
+      const e = Math.round(smoothstep(p, 0.7, 0.79) * 1000) / 1000;
+      if (e !== endOp) { posterEnd.style.opacity = e; endOp = e; }
+    }
+    for (const b of bands) {
+      const f = Math.min(0.02, (b.b - b.a) / 3);
+      let op = (b.first ? 1 : smoothstep(p, b.a, b.a + f)) * (b.last ? 1 : 1 - smoothstep(p, b.b - f, b.b));
+      if (b.last && p < b.a) op = 0;
+      op = Math.round(op * 1000) / 1000;
+      let k = clamp((p - b.a) / (b.ramp || Math.min(0.025, (b.b - b.a) * 0.35)), 0, 1);
+      if (b.first) k = Math.max(k, loadK);
+      if (op !== b.op) { b.el.style.opacity = op; b.op = op; }
+      const on = op > 0.02;
+      if (on !== b.on) { b.el.classList.toggle('on', on); b.on = on; }
+      if (Math.abs(k - b.k) >= 0.008 || ((k === 0 || k === 1) && k !== b.k)) { b.el.style.setProperty('--k', k.toFixed(3)); b.k = k; }
+      if (b.last) { const v = on && k >= 0.72; if (v !== ctaVis) { settleCta.style.visibility = v ? 'visible' : 'hidden'; ctaVis = v; } }
+    }
+    const gone = p > 0.04;
+    if (gone !== cueGone) { cue.classList.toggle('gone', gone); cueGone = gone; }
+  }
+  let cueGone = false, ctaVis = null;
+  const settleCta = $('.settle-cta');
+
+  function tick(now) {
+    const dt = Math.min(100, now - (lastTick || now));
+    lastTick = now;
+    const k = 0.16;
+    shown += (target - shown) * (1 - Math.pow(1 - k, dt / 16.667));
+    if (Math.abs(target - shown) < 0.0005) { shown = target; rafId = null; lastTick = 0; }
+    else rafId = requestAnimationFrame(tick);
+    if (video.duration) requestSeek(shown * (video.duration - 0.04));
+    updateCaptions(shown);
+  }
+  function onScroll() {
+    target = heroProgress();
+    if (rafId === null && heroOnScreen && scrubOn) rafId = requestAnimationFrame(tick);
+  }
+  new IntersectionObserver(es => { heroOnScreen = es[es.length - 1].isIntersecting; if (heroOnScreen) onScroll(); }).observe(hero);
+  addEventListener('resize', () => { if (scrubOn) onScroll(); }, { passive: true });
+
+  /* first band assembles on load, then hands over to scroll */
+  function loadRamp() {
+    const t0 = performance.now();
+    const step = now => {
+      const t = clamp((now - t0 - 250) / 1400, 0, 1);
+      loadK = 1 - Math.pow(1 - t, 3);
+      updateCaptions(shown);
+      if (t < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  let heroInit = false, fetchStarted = false;
+  function initHeroOnce() {
+    if (heroInit) return; heroInit = true;
+    posterLayer.style.backgroundImage = "url('" + POSTER_URL + "')";
+    posterEnd.style.backgroundImage = "url('" + ENDING_URL + "')";
+    const img = new Image();
+    img.onload = startBlobFetch; img.onerror = startBlobFetch;
+    img.src = POSTER_URL;
+    setTimeout(startBlobFetch, 4000);
+  }
+  function startBlobFetch() {
+    if (fetchStarted) return; fetchStarted = true;
+    loadHeroBlob().catch(directVideo);
+  }
+  async function loadHeroBlob() {
+    const ctrl = new AbortController();
+    let watchdog = setTimeout(() => ctrl.abort(), 20000);
+    const res = await fetch(VIDEO_URL, { priority: 'low', signal: ctrl.signal });
+    if (!res.ok || !res.body) throw new Error('video ' + res.status);
+    const total = Number(res.headers.get('Content-Length')) || VIDEO_BYTES;
+    const reader = res.body.getReader();
+    const chunks = [];
+    let got = 0, lastRing = 0;
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      clearTimeout(watchdog);
+      watchdog = setTimeout(() => ctrl.abort(), 20000);
+      chunks.push(value);
+      got += value.length;
+      const frac = Math.min(1, got / total);
+      const now = performance.now();
+      if (now - lastRing > 100 || frac === 1) { lastRing = now; ring.style.setProperty('--ld', Math.round(126 * (1 - frac))); }
+    }
+    clearTimeout(watchdog);
+    ring.style.setProperty('--ld', 0);
+    video.src = URL.createObjectURL(new Blob(chunks, { type: 'video/mp4' }));
+    video.load();
+    video.addEventListener('canplay', () => {
+      stage.classList.add('video-ready');
+      seekBusy = false;
+      requestSeek(heroProgress() * (video.duration - 0.04));
+      setTimeout(swapRingForChevron, 600);
+    }, { once: true });
+  }
+  function makeChevron() {
+    const ns = 'http://www.w3.org/2000/svg';
+    const s = document.createElementNS(ns, 'svg'); s.setAttribute('viewBox', '0 0 24 24'); s.setAttribute('class', 'chev live');
+    const p = document.createElementNS(ns, 'path'); p.setAttribute('d', 'M6 9l6 6 6-6'); s.append(p); return s;
+  }
+  function swapRingForChevron() { if (ring.isConnected) ring.replaceWith(makeChevron()); }
+  function failVideo() { swapRingForChevron(); stage.classList.add('video-failed'); }
+  /* fallback when fetch is refused (CSP, CORS): point the element at the file and scrub once it is buffered */
+  function directVideo() {
+    if (stage.classList.contains('video-ready')) return;
+    ring.style.setProperty('--ld', 0);
+    video.preload = 'auto';
+    video.addEventListener('canplaythrough', () => {
+      stage.classList.add('video-ready');
+      seekBusy = false;
+      requestSeek(heroProgress() * (video.duration - 0.04));
+      setTimeout(swapRingForChevron, 600);
+    }, { once: true });
+    video.src = VIDEO_URL;
+    video.load();
+  }
+
+  const GATES = [
+    '(max-width: 720px)',
+    '(orientation: portrait) and (max-width: 1024px)',
+    '(orientation: portrait) and (pointer: coarse)',
+    '(orientation: landscape) and (pointer: coarse) and (max-height: 560px)',
+    '(prefers-reduced-motion: reduce)'
+  ];
+  function enableScrub() {
+    if (scrubOn) return; scrubOn = true;
+    initHeroOnce();
+    addEventListener('scroll', onScroll, { passive: true });
+    bands.forEach(b => { b.op = -1; b.k = -1; b.on = null; });
+    unpinFinalStates();
+    updateCaptions(heroProgress());
+    shown = target = heroProgress();
+    onScroll();
+  }
+  function disableScrub() {
+    if (!scrubOn) return; scrubOn = false;
+    removeEventListener('scroll', onScroll);
+    if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; }
+    /* the 480vh hero collapses to one screen: keep the reader at the intro instead of several sections down */
+    if (heroOnScreen && scrollY > 0) scrollTo({ top: 0, behavior: 'instant' });
+  }
+  function applyHeroMode() { if (GATES.some(q => matchMedia(q).matches)) { disableScrub(); playStaticHero(); } else enableScrub(); }
+  const MQLS = GATES.map(q => matchMedia(q));
+  MQLS.forEach(m => m.addEventListener('change', applyHeroMode));
+
+  /* ---------- the pharmacy: scroll drives the vial push-in and the copy build ---------- */
+  const vials = $('.vials'), vialSteps = $$('.vials .vs').map(el => ({ el, at: +el.dataset.at, on: false }));
+  let vialsRaf = null, vialsP = -1, vialsOn = false;
+  function vialsProgress() {
+    const r = vials.getBoundingClientRect(), pinned = getComputedStyle($('.vials-pin')).position === 'sticky';
+    if (pinned) return clamp(-r.top / Math.max(1, r.height - innerHeight), 0, 1);
+    /* unpinned: 0 as the section enters, 1 once its copy is well into view */
+    return clamp((innerHeight - r.top) / (innerHeight * 0.55 + r.height * 0.6), 0, 1);
+  }
+  function vialsFrame() {
+    vialsRaf = null;
+    const p = RMQ.matches ? 1 : Math.round(vialsProgress() * 1000) / 1000;
+    if (p !== vialsP) { vials.style.setProperty('--p', p); vialsP = p; }
+    for (const v of vialSteps) { const on = p >= v.at; if (on !== v.on) { v.el.classList.toggle('on', on); v.on = on; } }
+  }
+  const vialsTick = () => { if (vialsOn && vialsRaf === null) vialsRaf = requestAnimationFrame(vialsFrame); };
+  new IntersectionObserver(es => { vialsOn = es[es.length - 1].isIntersecting; vialsTick(); }, { rootMargin: '10% 0px' }).observe(vials);
+  addEventListener('scroll', vialsTick, { passive: true });
+  addEventListener('resize', () => { vialsP = -1; vialsTick(); }, { passive: true });
+  RMQ.addEventListener('change', () => { vialsP = -1; vialsTick(); });
+  vialsFrame();
+
+  /* ---------- static hero: play the drop once where scrubbing is off, unless motion is reduced or data is saved ---------- */
+  const hsVid = $('.hs-vid');
+  let hsTried = false;
+  function playStaticHero() {
+    if (hsTried || RMQ.matches || navigator.connection?.saveData) return;
+    if (getComputedStyle($('.hero-static')).display === 'none') return;
+    hsTried = true;
+    hsVid.addEventListener('playing', () => hsVid.classList.add('live'), { once: true });
+    hsVid.addEventListener('error', () => hsVid.classList.remove('live'), { once: true });
+    hsVid.src = VIDEO_URL;
+    hsVid.play().catch(() => hsVid.classList.remove('live'));
+  }
+  RMQ.addEventListener('change', e => { if (e.matches) { hsVid.pause(); hsVid.classList.remove('live'); } });
+
+  /* ---------- nav state ---------- */
+  const nav = $('.nav'); let navSolid = null;
+  function navState() {
+    const staticHero = $('.hero-static');
+    const h = hero.offsetHeight ? hero.offsetHeight - innerHeight * 0.4 : staticHero.offsetHeight * 0.6;
+    const solid = scrollY > h;
+    if (solid !== navSolid) { nav.classList.toggle('solid', solid); navSolid = solid; }
+  }
+  addEventListener('scroll', navState, { passive: true });
+  addEventListener('resize', navState);
+
+  /* ---------- reveals, living elements, pause ---------- */
+  const revealIO = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('in');
+    revealIO.unobserve(e.target);
+    setTimeout(() => e.target.classList.add('settled'), 1600);
+  }), { rootMargin: '0px 0px -12% 0px' });
+  $$('[data-reveal]').forEach(el => revealIO.observe(el));
+  $$('section .rings').forEach(el => revealIO.observe(el));
+
+  const liveIO = new IntersectionObserver(es => es.forEach(e => e.target.classList.toggle('live', e.isIntersecting)));
+  $$('main section, .env').forEach(el => liveIO.observe(el));
+  $('.env').classList.add('live');
+  document.addEventListener('visibilitychange', () => document.body.classList.toggle('paused', document.hidden));
+
+  /* question chips, duplicated past 2560px so the loop never shows a gap */
+  const qs = $$('.chips .sr li').map(li => li.textContent);
+  $$('.chips .track').forEach((tr, ti) => {
+    const order = ti ? [...qs].reverse() : qs;
+    const make = () => order.forEach(q => { const s = document.createElement('span'); s.className = 'chip'; s.textContent = q; tr.append(s); });
+    for (let i = 0; i < 4; i++) make();
+  });
+
+  /* waitlist motes */
+  const motes = $('.motes'); const mr = rng(42);
+  for (let i = 0; i < 18; i++) {
+    const m = document.createElement('i');
+    m.style.left = (mr() * 100).toFixed(1) + '%'; m.style.top = (30 + mr() * 65).toFixed(1) + '%';
+    m.style.animationDelay = (-mr() * 14).toFixed(2) + 's'; m.style.animationDuration = (10 + mr() * 8).toFixed(1) + 's';
+    motes.append(m);
+  }
+
+  /* ---------- the light check (press and hold) ---------- */
+  const check = $('#check'), holdBtn = $('#hold'), items = $$('#standards li'), sun = $('#sun'), refl = $('#sun-refl');
+  let p = 0, holding = false, done = false, hRaf = null, hLast = 0, pinnedByRM = false;
+  let lastP = -1, litCount = -1;
+  function renderCheck() {
+    if (Math.abs(p - lastP) >= 0.004 || p === 0 || p === 1) {
+      check.style.setProperty('--p', p.toFixed(3));
+      const ang = Math.PI * (1 - (0.06 + p * 0.44));
+      const x = 320 + Math.cos(ang) * 280 * (0.2 + 0.8 * p) * 0 + 0;
+      const y = 300 - p * 190;
+      sun.setAttribute('transform', 'translate(' + (320).toFixed(1) + ' ' + y.toFixed(1) + ')');
+      refl.setAttribute('opacity', (p * 0.9).toFixed(2));
+      lastP = p;
+    }
+    const n = done ? items.length : Math.floor(p * (items.length + 1) - 0.0001);
+    const lit = clamp(n, 0, items.length);
+    if (lit !== litCount) { items.forEach((li, i) => li.classList.toggle('lit', i < lit)); litCount = lit; }
+  }
+  function holdTick(now) {
+    const dt = Math.min(100, now - (hLast || now)); hLast = now;
+    if (holding && !done) p = Math.min(1, p + dt / 2600);
+    else if (!done) p = Math.max(0, p - (dt / 1600) * (0.35 + p));
+    if (p >= 1 && !done) { done = true; check.classList.add('done'); holdBtn.querySelector('.hold-label').textContent = 'In the light'; announceCheck(); }
+    renderCheck();
+    if ((holding && !done) || (!holding && !done && p > 0)) hRaf = requestAnimationFrame(holdTick);
+    else { hRaf = null; hLast = 0; }
+  }
+  function startHold() {
+    if (done) return;
+    if (RMQ.matches) { completeCheck(); return; }
+    holding = true; holdBtn.classList.add('holding');
+    if (hRaf === null) hRaf = requestAnimationFrame(holdTick);
+  }
+  function endHold() {
+    holding = false; holdBtn.classList.remove('holding');
+    if (hRaf === null && !done && p > 0) hRaf = requestAnimationFrame(holdTick);
+  }
+  function announceCheck() { $('#check-status').textContent = 'All six standards are lit. Apollo is being built to show you all six.'; }
+  function completeCheck() {
+    p = 1; done = true; check.classList.add('done');
+    holdBtn.querySelector('.hold-label').textContent = 'In the light';
+    renderCheck();
+    announceCheck();
+  }
+  holdBtn.addEventListener('pointerdown', e => { if (e.button !== 0) return; holdBtn.setPointerCapture(e.pointerId); startHold(); });
+  ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(ev => holdBtn.addEventListener(ev, endHold));
+  let keyHold = false;
+  holdBtn.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!e.repeat) { keyHold = true; startHold(); } } });
+  holdBtn.addEventListener('keyup', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (keyHold) { keyHold = false; endHold(); } } });
+  holdBtn.addEventListener('blur', () => { keyHold = false; endHold(); });
+  addEventListener('blur', () => { keyHold = false; endHold(); });
+  holdBtn.addEventListener('click', e => { if (e.detail === 0) completeCheck(); });
+  holdBtn.addEventListener('contextmenu', e => e.preventDefault());
+  renderCheck();
+
+  function pinToFinalStates() {
+    if (!done) { pinnedByRM = true; completeCheck(); }
+    if (hRaf !== null) { cancelAnimationFrame(hRaf); hRaf = null; }
+    $$('[data-reveal], .rings').forEach(el => el.classList.add('in', 'settled'));
+  }
+  function unpinFinalStates() {
+    if (pinnedByRM) {
+      pinnedByRM = false; done = false; p = 0; lastP = -1; litCount = -1;
+      check.classList.remove('done');
+      holdBtn.querySelector('.hold-label').textContent = 'Hold to bring it into the light';
+      renderCheck();
+    }
+  }
+  RMQ.addEventListener('change', e => { if (e.matches) pinToFinalStates(); else { unpinFinalStates(); applyHeroMode(); } });
+
+  /* ---------- the 60 second listen ---------- */
+  const audio = $('#listen'), player = $('#player'), playBtn = $('#play'), wave = $('#wave'), ptime = $('#ptime');
+  const wr = rng(7); const BARS = 46;
+  for (let i = 0; i < BARS; i++) {
+    const s = document.createElement('span');
+    const h = 0.25 + Math.abs(Math.sin(i * 0.55)) * 0.5 + wr() * 0.25;
+    s.style.setProperty('--h', Math.min(1, h).toFixed(2));
+    s.style.setProperty('--d', (-wr() * 1.4).toFixed(2) + 's');
+    wave.append(s);
+  }
+  const bars = [...wave.children];
+  const fmt = t => { t = Math.max(0, Math.round(t || 0)); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); };
+  let lastDone = -1, lastTime = '';
+  function renderAudio() {
+    const d = audio.duration || 48, frac = (audio.currentTime || 0) / d;
+    const n = Math.round(frac * BARS);
+    if (n !== lastDone) { bars.forEach((b, i) => b.classList.toggle('done', i < n)); lastDone = n; wave.setAttribute('aria-valuenow', Math.round(frac * 100)); }
+    const label = fmt(audio.currentTime) + ' / ' + fmt(d);
+    if (label !== lastTime) { ptime.textContent = label; lastTime = label; wave.setAttribute('aria-valuetext', fmt(audio.currentTime) + ' of ' + fmt(d)); }
+  }
+  playBtn.addEventListener('click', () => { if (audio.paused) audio.play().catch(() => {}); else audio.pause(); });
+  audio.addEventListener('play', () => { player.classList.add('playing'); playBtn.setAttribute('aria-label', 'Pause: Apollo in under a minute'); });
+  audio.addEventListener('pause', () => { player.classList.remove('playing'); playBtn.setAttribute('aria-label', 'Play: Apollo in under a minute'); });
+  audio.addEventListener('ended', () => { audio.currentTime = 0; renderAudio(); });
+  audio.addEventListener('timeupdate', renderAudio);
+  audio.addEventListener('loadedmetadata', renderAudio);
+  let pendingSeek = null;
+  audio.addEventListener('loadedmetadata', () => { if (pendingSeek !== null) { audio.currentTime = pendingSeek * audio.duration; pendingSeek = null; } renderAudio(); });
+  function seekTo(frac) {
+    if (!audio.duration) {
+      pendingSeek = frac;
+      if (audio.networkState !== HTMLMediaElement.NETWORK_LOADING) { audio.preload = 'auto'; audio.load(); }
+      return;
+    }
+    audio.currentTime = frac * audio.duration; renderAudio();
+  }
+  wave.addEventListener('click', e => { const r = wave.getBoundingClientRect(); seekTo(clamp((e.clientX - r.left) / r.width, 0, 1)); });
+  wave.addEventListener('keydown', e => {
+    const d = audio.duration || 48, now = (audio.currentTime || 0) / d;
+    const map = { ArrowRight: now + 5 / d, ArrowUp: now + 5 / d, ArrowLeft: now - 5 / d, ArrowDown: now - 5 / d, Home: 0, End: 1 };
+    if (!(e.key in map)) return;
+    e.preventDefault();
+    seekTo(clamp(map[e.key], 0, 1));
+  });
+
+  /* ---------- faq ---------- */
+  $$('.q').forEach(q => q.addEventListener('click', () => q.setAttribute('aria-expanded', q.getAttribute('aria-expanded') === 'true' ? 'false' : 'true')));
+
+  /* ---------- waitlist ---------- */
+  const sel = $('#f-state');
+  const form = $('#form'), msg = $('#form-msg'), submit = $('#f-submit');
+  /* paste the form id from formspree.io in place of YOUR_FORM_ID; until then the form politely says signups aren't open */
+  const ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+  form.noValidate = true;
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    msg.textContent = '';
+    const email = $('#f-email'), consent = $('#f-consent');
+    [email, sel, consent].forEach(f => { f.removeAttribute('aria-invalid'); f.removeAttribute('aria-describedby'); });
+    const fail = (f, text) => { msg.textContent = text; f.setAttribute('aria-invalid', 'true'); f.setAttribute('aria-describedby', 'form-msg'); f.focus(); };
+    if (!email.value || !email.checkValidity()) { fail(email, 'Please enter a valid email address.'); return; }
+    if (!sel.value) { fail(sel, 'Please choose your state.'); return; }
+    if (!consent.checked) { fail(consent, 'Please check the box so we can email you when we open.'); return; }
+    submit.disabled = true; submit.textContent = 'Sending…';
+    const ok = () => { form.classList.add('sent'); const h = form.querySelector('.success h3'); h.tabIndex = -1; h.focus(); };
+    if (/\/YOUR_FORM_ID$/.test(ENDPOINT)) {
+      msg.textContent = "Signups aren't open yet. Please check back soon.";
+      submit.disabled = false; submit.textContent = 'Join the waitlist';
+      return;
+    }
+    try {
+      const res = await fetch(ENDPOINT, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+      if (res.ok) ok(); else throw new Error(res.status);
+    } catch (err) {
+      msg.textContent = "That didn't go through. Please try again in a moment.";
+      submit.disabled = false; submit.textContent = 'Join the waitlist';
+    }
+  });
+
+  /* ---------- boot ---------- */
+  applyHeroMode();
+  loadRamp();
+  navState();
+  if (RMQ.matches) pinToFinalStates();
+})();
+</script>
+
+</body></html>
